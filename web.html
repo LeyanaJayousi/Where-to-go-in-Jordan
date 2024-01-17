@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    
+    />
+    <title>Welcome to Jordan</title>
+    <link rel="stylesheet" href="styles/style.css" />
+
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Welcome to Jordan</title>
+      <style>
+        
+      </style>
+      <script>
+        function showPopup() {
+    
+    var confirmClose = confirm("You can contact us to arrange a guide or get more information:\n\nCall: +905314549874\nEmail: leyjayousi@gmail.com\n\nDo you want to proceed with sending an email?");
+
+    
+    if (confirmClose) {
+        
+        window.location.href = "mailto:B.alshami1@gju.edu.jo";
+    } 
+    }
+      
+        
+        function scrollToBottom() {
+      document.getElementById('bottom').scrollIntoView({ behavior: 'smooth' });
+    }
+      </script>
+    
+
+
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="circle.png" />
+      </a>
+      <nav class="navbar">
+        <p>Discover the beauty and wonders of Jordan!</p>
+      </nav>
+
+      <div class="buttons">
+        <button>
+            <i class ="fas fa-search"></i>
+        </button>
+        <button>
+            <i class = "fas fa-bars"></i>
+        </button>
+        
+      </div>
+    </header>
+    <section class="home">
+      <div class="content">
+        <h3>Welcome to Jordan</h3>
+        <p>Are you ready to discover Jordan from another sight?</p>
+        <a href="#" class="btn" onclick="showPopup()">Need a guide with me</a>
+        <a href="#bottom" class="scroll-to-bottom-button" onclick="scrollToBottom()">Discover places now!</a>
+
+    </div>
+  </section>
+  <section class="suggestedPlaces">
+    <h1></h1>
+    <div class="box-container">
+      </div>
+    </section>
+    <section class="suggestedPlaces">
+      <h1></h1> 
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head"></div>
+               <img src="dead sea.png" alt="menu" /> 
+               <span class="Location">Dead sea</span>
+               <h3>located between Palestine and Jordan</h3>
+               <a href="deadSeaInfo.html" class="button">Click for more info</a>
+                  </div>
+          <div class="box-bottom">
+            
+          </div>  
+          <div class="box">
+            <div class="box-head"></div>
+                 <img src="madaba.png" alt="menu" float=""/> 
+                 <span class="Location">Madaba</span>
+                 
+                 <a href="madabaInfo.html" class="button">Click for more info</a>
+                 </div>
+            <div class="box-bottom">
+              
+            </div>  
+            <div class="box">
+              <div class="box-head"></div>
+                   <img src="petra.png" alt="menu" float=""/> 
+                   <span class="Location">Petra</span>
+                   <h3>located in Ma'an</h3>
+                   <a href="petraInfo.html" class="button">Click for more info</a>
+                   </div>
+              <div class="box-bottom">
+                
+              </div>  
+            <div class="box">
+                <div class="box-head"></div>
+                     <img src="umqais.png" alt="menu" float=""/> 
+                     <span class="Location">Umm qais</span>
+                     <h3>located in northwestern corner of Jordan</h3>
+                     <a href="ummqaisInfo.html" class="button">Click for more info</a>
+                     </div>
+                <div class="box-bottom">
+                  
+              </div> 
+            <div class="box">
+                <div class="box-head"></div>
+                     <img src="jerash.png" alt="menu" float=""/> 
+                     <span class="Location">Jerash</span>
+                     <a href="jerashInfo.html" class="button">Click for more info</a>
+                     </div>
+                <div class="box-bottom">
+                  
+              </div>   
+            <div class="box">
+                <div class="box-head"></div>
+                     <img src="aqaba.png" alt="menu" float=""/> 
+                     <span class="Location">Aqaba</span>
+                     <a href="aqabaInfo.html" class="button">Click for more info</a>
+                     
+                     </div>
+                <div class="box-bottom">
+                  
+              </div>     
+            <div class="box">
+              <div class="box-head"></div>
+                   <img src="wadi.jpg" alt="menu" /> 
+                   <span class="Location">Wadi Rum</span>
+                   
+                   <h3>located in Aqaba</h3>
+                   <a href="wadiRumInfo.html" class="button">Click for more info</a>
+                   </div>
+              <div class="box-bottom">
+                
+              </div>  
+              
+              </div>
+    </section>
+    <h2 id="bottom"></h2>
+  </body>
+</html>
